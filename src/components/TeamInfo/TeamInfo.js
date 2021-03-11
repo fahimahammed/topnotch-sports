@@ -14,10 +14,10 @@ const TeamInfo = (props) => {
     const isTeamTitle = true;
     let TeamImage;
     if(strGender === 'Male'){
-        TeamImage = <img className='TeamImage' src={MaleTeamImage} alt="Team Image" />
+        TeamImage = <img className='TeamImage' src={MaleTeamImage} alt="" />
     }
     else{
-        TeamImage = <img className='TeamImage' src={FemaleTeamImage} alt="Team Image" />
+        TeamImage = <img className='TeamImage' src={FemaleTeamImage} alt="" />
     }
     return (
         <div>
