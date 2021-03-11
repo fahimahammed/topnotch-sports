@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .header-img{
+      opacity: 0.5;
+      width: 100%;
+      
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: 800;
+  }

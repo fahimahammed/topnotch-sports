@@ -1,0 +1,56 @@
+.TeamImage{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+.TeamContainer{
+    border-radius: 15px;
+    background-color: rgb(4, 42, 124);
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.body-style{
+    padding-top: 20px;
+}
+.textStyle{
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+.TeamDescription{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: white;
+}
+.social-container{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.icon {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+.icon:hover {
+    transform: translateY(-2px);
+}
+.youtube {
+    color: #b80606;
+}
+  
+.facebook {
+    color: #11388d;
+}
+  
+.instagram {
+    color: black;
+}

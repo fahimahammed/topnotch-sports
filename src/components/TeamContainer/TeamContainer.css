@@ -1,0 +1,11 @@
+.team-container{
+    background-color: rgba(233, 47, 103, 0.883);
+    margin-left: 8.9%;
+    margin-right: 8.9%;
+}
+.card-style{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 8%;
+}
