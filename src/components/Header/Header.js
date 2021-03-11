@@ -8,7 +8,7 @@ const Header = (props) => {
     let MainHeading;
     //condition
     if(Heading){
-        MainHeading = <img style={{width: '20%'}} className='centered' src={TeamLogo}></img>
+        MainHeading = <img style={{width: '20%'}} className='centered' src={TeamLogo} alt='Team Logo'></img>
     }
     else{
         MainHeading = <h1 className='centered'>TopNotch Sports</h1>

@@ -15,7 +15,7 @@ const TeamDetail = () => {
     return (
         <div>
             {
-                teamDetail.map(team => <TeamInfo team = {team}></TeamInfo>)
+                teamDetail.map(team => <TeamInfo team = {team} key={teamId}></TeamInfo>)
             }
         </div>
     );

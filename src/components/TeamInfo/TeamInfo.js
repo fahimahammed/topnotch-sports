@@ -9,15 +9,15 @@ import MaleTeamImage from '../images/male.png';
 import FemaleTeamImage from '../images/female.png';
 
 const TeamInfo = (props) => {
-    console.log(props.team);
+    // console.log(props.team);
     const { strTeamBadge, strTeam, intFormedYear, strCountry, strGender, strDescriptionEN, strDescriptionES, strStadiumDescription, strFacebook, strInstagram, strYoutube } = props.team;
     const isTeamTitle = true;
     let TeamImage;
     if(strGender === 'Male'){
-        TeamImage = <img className='TeamImage' src={MaleTeamImage} alt="" />
+        TeamImage = <img className='TeamImage' src={MaleTeamImage} alt="Team Image" />
     }
     else{
-        TeamImage = <img className='TeamImage' src={FemaleTeamImage} alt="" />
+        TeamImage = <img className='TeamImage' src={FemaleTeamImage} alt="Team Image" />
     }
     return (
         <div>
@@ -45,9 +45,9 @@ const TeamInfo = (props) => {
                 <p className='TeamDescription'> {strDescriptionES} </p>
                 <p className = 'TeamDescription'> {strStadiumDescription} </p>
                 <div className='social-container'>
-                    <a href={`https://${strFacebook}`} target='_blank'><FontAwesomeIcon icon={faFacebook} size='2x' className='facebook icon' /></a>
-                    <a href={`https://${strInstagram}`} target= '_blank'><FontAwesomeIcon icon={faInstagram} size='2x' className='instagram icon' /></a>
-                    <a href={`https://${strYoutube}`} target= '_blank'><FontAwesomeIcon icon={faYoutube} size='2x' className='youtube icon' /></a>
+                    <a href={`https://${strFacebook}`} target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faFacebook} size='2x' className='facebook icon' /></a>
+                    <a href={`https://${strInstagram}`} target= '_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} size='2x' className='instagram icon' /></a>
+                    <a href={`https://${strYoutube}`} target= '_blank' rel="noreferrer"><FontAwesomeIcon icon={faYoutube} size='2x' className='youtube icon' /></a>
                 </div>
             </div>
         </div>
